@@ -74,13 +74,17 @@ The images below are the results of this exercise and also generated
 the complete 3D scene file for the [Luxrender](http://luxrender.net)
 renderer.
 
+#### London binge drinking by borough
+
 ![London binge drinking by borough](assets/datagrid-binge.jpg)
 
 * **Columns:** Months (Jul 2009 - Jun 2013)
 * **Rows:** Boroughs, sorted by global average (the top 5 boroughs:
   Westminster, Camden, Lambeth, Southwark, Croydon)
 * **Global Value range:** min = 17, max = 360
-* **Threshold:** Only entries with > 10 incidents/month are shown
+* **Threshold:** Only entries with > 50 incidents/month are shown
+
+#### London assaults on women by borough
 
 ![London assaults on women by borough](assets/datagrid-women.jpg)
 
@@ -89,6 +93,8 @@ renderer.
   Lambeth, Croydon, Southwark, Lewisham, Newham)
 * **Global Value range:** min = 0, max = 90
 * **Threshold:** Only entries with > 10 incidents/month are shown
+
+#### London knife injuries by borough
 
 ![London knife injuries by borough](assets/datagrid-knife.jpg)
 
