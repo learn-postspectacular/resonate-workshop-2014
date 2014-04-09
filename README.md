@@ -12,7 +12,21 @@ not dependent on CCW.
 
 ## Exercises
 
-Below is a short summary of the different exercises:
+Below is a short summary of the different exercises. Only one of them
+can be "run" from a REPL, but the others require manual exectution of
+at least a single function call (e.g. see
+[ex03](src/resonate2014/ex03/core.clj#L257))...
+
+To launch a REPL from the command line, simply type `lein repl`. This
+will download all dependencies too. Be aware that this project is
+configured to use Clojure 1.6.0, which requires **Java 7**. If you're
+still on Java 6, you'll need to replace/add the following dependencies
+in `project.clj` (before launching your REPL):
+
+* replace Clojure 1.6.0 => `[org.clojure/clojure "1.5.1.]`
+* add `[org.codehaus.jsr166-mirror/jsr166y "1.7.0"]`
+
+To find out which version of Java is present use `java -version`.
 
 ### Text adventure
 
@@ -103,6 +117,14 @@ renderer.
   Southwark, Lambeth, Newham, Lewisham, Haringey)
 * **Global value range:** min = 0, max = 25
 * **Threshold:** None, all incidents/month are shown
+
+## Links & further reading
+
+* [Clojure tutorial @ CAN](http://www.creativeapplications.net/tutorials/introduction-to-clojure-part-1/)
+* [Clojure from the ground up](http://aphyr.com/tags/Clojure-from-the-ground-up)
+* [Brave Clojure tutorial](http://www.braveclojure.com/)
+
+More links to resources coming over the next few days...
 
 ## License
 
