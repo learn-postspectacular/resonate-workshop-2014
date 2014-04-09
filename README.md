@@ -13,9 +13,11 @@ not dependent on CCW.
 ## Exercises
 
 Below is a short summary of the different exercises. Only one of them
-can be "run" from a REPL, but the others require manual exectution of
-at least a single function call (e.g. see
-[ex03](src/resonate2014/ex03/core.clj#L257))...
+can be "run" from a REPL without needing a manual initialization
+([ex01](src/resonate2014/ex01.clj)), but the others require manual
+exectution of at least a single function call (e.g. see
+[ex03](src/resonate2014/ex03/core.clj#L257)) in order to produce some
+output...
 
 To launch a REPL from the command line, simply type `lein repl`. This
 will download all dependencies too. Be aware that this project is
