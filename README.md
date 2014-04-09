@@ -32,6 +32,22 @@ could help us in defining a tiny DSL to simplify playing the game in
 the REPL. The resulting setup should be flexible enough to add more
 interactive storytelling & game related puzzle features.
 
+```
+Welcome to the Resonate 2014 Clojure adventure.
+Can you find the golden treasure?
+Type (help) for a list of commands...
+------------------------------------------------------------
+You are in your hut. You can see an empty bottle of whiskey and an unmade bed.
+You can go east.
+You carry nothing.
+
+resonate2014.ex01> (go :east)
+------------------------------------------------------------
+You are in the garden. You can see some beautiful flowers.
+You can go east, north, south and west.
+You carry nothing.
+```
+
 ### Linked data graphs
 
 TBD (forthcoming)
